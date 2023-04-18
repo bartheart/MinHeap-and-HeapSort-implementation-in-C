@@ -1,0 +1,40 @@
+//Author: Bemnet Merkebu
+//CSCE 3100
+//
+
+//Implementation of left out methods
+
+insert(int element)
+    - takes int type parameter of the value to be inserted
+    - check if the heap is full
+        prompt overflow error message
+    - insert the element at the end of the queue
+        at the position of heapsize++
+    - while the index of the heap elements is not 0
+      and if the parent is found to be greater than the child
+        swap the parent and the child
+    - returns nothing
+
+extractMin()
+    - takes no parameter 
+    - if the heapsize is lessthan or 0
+        retrun -1
+    - if the heapsize is 1
+        decrement heapsize by 1
+        and return first element in the heap
+    - assign the root to be the first element in the heap
+    - then heapify to mantain heap property
+    - returns the least element
+
+MinHeapify(int i)
+    - takes int i
+    - intialize left and right nodes of the current node
+    - let the current element be the least
+    - find the least element 
+    - bring it to the top
+    -returns nothing
+
+HeapSort(vector, int n)
+    - set the heapsize for the length of array given as paramter
+    - build the heap using MinHeapify than inserting
+    - extract the min element by looping throug the heap than using extractMin

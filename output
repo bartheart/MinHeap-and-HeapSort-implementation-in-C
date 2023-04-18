@@ -44,7 +44,7 @@ Input size: 10
 This it the input:
 7 3 6 10 6 11 3 19 13 9 
 And this is the sorted output:
-19 13 11 10 9 7 6 6 3 3 
+900 900 900 800 700 500 500 0 0 0 
 Checking if the output is actually sorted ...
 	The output is sorted
 ========================================
@@ -97,7 +97,7 @@ Input size: 10
 This it the input:
 1 10 18 5 20 11 11 6 17 12 
 And this is the sorted output:
-20 18 17 12 11 11 10 6 5 1 
+900 900 900 800 700 500 500 0 0 0 
 Checking if the output is actually sorted ...
 	The output is sorted
 ========================================
@@ -150,7 +150,7 @@ Input size: 10
 This it the input:
 9 20 19 1 4 1 12 4 15 19 
 And this is the sorted output:
-20 19 19 15 12 9 4 4 1 1 
+900 900 900 800 700 500 500 0 0 0 
 Checking if the output is actually sorted ...
 	The output is sorted
 ========================================
@@ -203,7 +203,7 @@ Input size: 10
 This it the input:
 8 5 18 7 15 12 20 8 13 11 
 And this is the sorted output:
-20 18 15 13 12 11 8 8 7 5 
+900 900 900 800 700 500 500 0 0 0 
 Checking if the output is actually sorted ...
 	The output is sorted
 ========================================
@@ -256,7 +256,7 @@ Input size: 10
 This it the input:
 9 1 9 16 2 5 5 18 9 2 
 And this is the sorted output:
-18 16 9 9 9 5 5 2 2 1 
+900 900 900 800 700 500 500 0 0 0 
 Checking if the output is actually sorted ...
 	The output is sorted
 ========================================
@@ -341,6 +341,30 @@ insert 900
 MinHeap:- 7
 100 200 400 800 700 500 900 
 size: 7
+Get and delete min element: 100
+MinHeap:- 6
+200 700 400 800 900 500 
+Get and delete min element: 200
+MinHeap:- 5
+400 700 500 800 900 
+Get and delete min element: 400
+MinHeap:- 4
+500 700 900 800 
+========================================
+
+
+========================================
+Checking if HeapSort works ...
+Input size: 100
+========================================
+Input is too large to display
+Sorted output is too large to display
+Checking if the output is actually sorted ...
+	The output is sorted
+========================================
+
+
+
 inputs/input.100.3
 ========================================
 Trying some methods from the MinHeap class ....
@@ -946,6 +970,13 @@ Checking if HeapSort works ...
 Input size: 10000
 ========================================
 Input is too large to display
+Sorted output is too large to display
+Checking if the output is actually sorted ...
+	The output is sorted
+========================================
+
+
+
 inputs/input.10000.5
 ========================================
 Trying some methods from the MinHeap class ....
@@ -990,6 +1021,13 @@ Checking if HeapSort works ...
 Input size: 10000
 ========================================
 Input is too large to display
+Sorted output is too large to display
+Checking if the output is actually sorted ...
+	The output is sorted
+========================================
+
+
+
 inputs/input.100000.1
 ========================================
 Trying some methods from the MinHeap class ....
@@ -1034,6 +1072,13 @@ Checking if HeapSort works ...
 Input size: 100000
 ========================================
 Input is too large to display
+Sorted output is too large to display
+Checking if the output is actually sorted ...
+	The output is sorted
+========================================
+
+
+
 inputs/input.100000.2
 ========================================
 Trying some methods from the MinHeap class ....
@@ -1078,6 +1123,13 @@ Checking if HeapSort works ...
 Input size: 100000
 ========================================
 Input is too large to display
+Sorted output is too large to display
+Checking if the output is actually sorted ...
+	The output is sorted
+========================================
+
+
+
 inputs/input.100000.3
 ========================================
 Trying some methods from the MinHeap class ....
@@ -1122,6 +1174,13 @@ Checking if HeapSort works ...
 Input size: 100000
 ========================================
 Input is too large to display
+Sorted output is too large to display
+Checking if the output is actually sorted ...
+	The output is sorted
+========================================
+
+
+
 inputs/input.100000.4
 ========================================
 Trying some methods from the MinHeap class ....
@@ -1166,6 +1225,13 @@ Checking if HeapSort works ...
 Input size: 100000
 ========================================
 Input is too large to display
+Sorted output is too large to display
+Checking if the output is actually sorted ...
+	The output is sorted
+========================================
+
+
+
 inputs/input.100000.5
 ========================================
 Trying some methods from the MinHeap class ....
@@ -1210,6 +1276,13 @@ Checking if HeapSort works ...
 Input size: 100000
 ========================================
 Input is too large to display
+Sorted output is too large to display
+Checking if the output is actually sorted ...
+	The output is sorted
+========================================
+
+
+
 inputs/input.1000000.1
 ========================================
 Trying some methods from the MinHeap class ....
@@ -1254,6 +1327,13 @@ Checking if HeapSort works ...
 Input size: 1000000
 ========================================
 Input is too large to display
+Sorted output is too large to display
+Checking if the output is actually sorted ...
+	The output is sorted
+========================================
+
+
+
 inputs/input.1000000.2
 ========================================
 Trying some methods from the MinHeap class ....
@@ -1298,6 +1378,13 @@ Checking if HeapSort works ...
 Input size: 1000000
 ========================================
 Input is too large to display
+Sorted output is too large to display
+Checking if the output is actually sorted ...
+	The output is sorted
+========================================
+
+
+
 inputs/input.1000000.3
 ========================================
 Trying some methods from the MinHeap class ....
@@ -1342,6 +1429,13 @@ Checking if HeapSort works ...
 Input size: 1000000
 ========================================
 Input is too large to display
+Sorted output is too large to display
+Checking if the output is actually sorted ...
+	The output is sorted
+========================================
+
+
+
 inputs/input.1000000.4
 ========================================
 Trying some methods from the MinHeap class ....

@@ -114,17 +114,15 @@ void MinHeap::heapsort(vector<int>& A,int n) {
 
 void MinHeap::heapsort(vector<int>& A, int n){
   heap_size = n;
-  for (int i = 0; i < n; i++){
-    harr[i] = A[i];
-    }
-
-
+  // Build the heap using MinHeapify
   for (int i = n / 2 - 1; i >= 0; i--) {
     MinHeapify(i);
   }
-
-  for (int i = n-1; i >= 0; i--){
-    A[i]= extractMin();
+  // Extract the minimum element one by one and store in A in descending order
+  for (int i = n - 1; i >= 0; i--) {
+    A[i] = harr[0];
+    swap(&harr[0], &harr[i]);
+    heap_size--;
+    MinHeapify(0);
   }
-
 }
